@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup as bs4
 from time import sleep
 import xlsxwriter
+import sqlite3
 
 #Создаем файлик екселя и страницу товары
 book = xlsxwriter.Workbook('Одежда для девочек.xlsx')
